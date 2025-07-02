@@ -1,6 +1,7 @@
 {
   "name": "solitive-solutions-website",
   "version": "1.0.0",
+  "description": "Official website for Solitive Technologies - deployed and live",
   "private": true,
   "scripts": {
     "dev": "next dev",
