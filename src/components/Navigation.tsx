@@ -54,14 +54,9 @@ const Navigation = () => {
               <Zap className="h-8 w-8 text-neon-blue group-hover:text-neon-green transition-colors duration-300" />
               <div className="absolute inset-0 h-8 w-8 bg-neon-blue/20 blur-lg group-hover:bg-neon-green/20 transition-colors duration-300" />
             </div>
-            <div className="flex flex-col leading-tight">
-              <span className="text-xl lg:text-2xl font-bold text-gradient">
-                Solitive
-              </span>
-              <span className="text-xs lg:text-sm font-medium text-white/60 -mt-1">
-                Technologies
-              </span>
-            </div>
+            <span className="text-xl lg:text-2xl font-bold text-gradient">
+              Solitive
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
