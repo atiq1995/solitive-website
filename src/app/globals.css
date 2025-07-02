@@ -136,10 +136,17 @@ button, a, input, textarea {
 /* Custom utilities */
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(45deg, #00D4FF, #39FF14, #BF00FF);
+    background: linear-gradient(45deg, #00D4FF 0%, #39FF14 50%, #00FFFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease-in-out infinite;
+  }
+  
+  @keyframes gradient-shift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
   }
   
   .bg-gradient-mesh {

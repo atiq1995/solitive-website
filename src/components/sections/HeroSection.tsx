@@ -83,7 +83,12 @@ const HeroSection = () => {
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
               <span className="block text-white">Transform Your</span>
-              <span className="block text-gradient glow-text">Business Future</span>
+              <span className="block text-gradient glow-text" style={{
+                background: 'linear-gradient(45deg, #00D4FF 0%, #39FF14 50%, #00FFFF 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text'
+              }}>Business Future</span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
