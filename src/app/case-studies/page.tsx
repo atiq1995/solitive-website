@@ -129,7 +129,7 @@ export default function CaseStudiesPage() {
               Success <span className="text-gradient">Stories</span>
             </h1>
             <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto">
-              Discover how we've transformed businesses across industries with innovative technology solutions.
+              Discover how we&apos;ve transformed businesses across industries with innovative technology solutions.
             </p>
           </motion.div>
         </div>
