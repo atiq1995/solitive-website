@@ -55,7 +55,7 @@ const Navigation = () => {
               <div className="absolute inset-0 h-8 w-8 bg-neon-blue/20 blur-lg group-hover:bg-neon-green/20 transition-colors duration-300" />
             </div>
             <span className="text-xl lg:text-2xl font-bold text-gradient">
-              Solitive
+              Solitive Technologies
             </span>
           </Link>
 

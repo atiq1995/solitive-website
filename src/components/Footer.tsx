@@ -49,7 +49,7 @@ const Footer = () => {
                   <Zap className="h-8 w-8 text-neon-blue" />
                   <div className="absolute inset-0 h-8 w-8 bg-neon-blue/20 blur-lg" />
                 </div>
-                <span className="text-2xl font-bold text-gradient">Solitive</span>
+                <span className="text-2xl font-bold text-gradient">Solitive Technologies</span>
               </Link>
               
               <p className="text-white/70 mb-6 max-w-md">
