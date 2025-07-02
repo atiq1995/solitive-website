@@ -233,7 +233,7 @@ export default function ServicesPage() {
               Ready to Transform Your <span className="text-gradient">Business</span>?
             </h2>
             <p className="text-lg text-white/70 mb-8">
-              Let's discuss how our cutting-edge solutions can accelerate your digital transformation.
+              Let&apos;s discuss how our cutting-edge solutions can accelerate your digital transformation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

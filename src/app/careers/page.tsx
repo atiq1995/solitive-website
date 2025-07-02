@@ -164,7 +164,7 @@ export default function CareersPage() {
               Join Our <span className="text-gradient">Team</span>
             </h1>
             <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto">
-              Be part of a dynamic team that's transforming businesses through innovative technology solutions.
+              Be part of a dynamic team that&apos;s transforming businesses through innovative technology solutions.
             </p>
           </motion.div>
         </div>
@@ -271,7 +271,7 @@ export default function CareersPage() {
                     <div className="glass p-6 rounded-lg border border-white/10 h-fit">
                       <h4 className="text-white font-semibold mb-4">Ready to Apply?</h4>
                       <p className="text-white/70 text-sm mb-6">
-                        Send us your resume and let's discuss how you can contribute to our team.
+                        Send us your resume and let&apos;s discuss how you can contribute to our team.
                       </p>
                       <button className="w-full px-6 py-3 bg-gradient-to-r from-neon-blue to-neon-green rounded-lg text-white font-semibold hover:shadow-neon transition-all duration-300 flex items-center justify-center space-x-2">
                         <span>Apply Now</span>
@@ -297,10 +297,10 @@ export default function CareersPage() {
             className="glass-strong p-12 rounded-xl border border-white/10"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Don't See Your <span className="text-gradient">Dream Role</span>?
+              Don&apos;t See Your <span className="text-gradient">Dream Role</span>?
             </h2>
             <p className="text-lg text-white/70 mb-8">
-              We're always looking for talented individuals. Send us your resume and we'll keep you in mind for future opportunities.
+              We&apos;re always looking for talented individuals. Send us your resume and we&apos;ll keep you in mind for future opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 bg-gradient-to-r from-neon-blue to-neon-green rounded-lg text-white font-semibold hover:shadow-neon transition-all duration-300 flex items-center justify-center space-x-2">

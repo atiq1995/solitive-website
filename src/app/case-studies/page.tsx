@@ -242,7 +242,7 @@ export default function CaseStudiesPage() {
               Ready to Be Our Next <span className="text-gradient">Success Story</span>?
             </h2>
             <p className="text-lg text-white/70 mb-8">
-              Let's discuss how we can transform your business with cutting-edge technology solutions.
+              Let&apos;s discuss how we can transform your business with cutting-edge technology solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

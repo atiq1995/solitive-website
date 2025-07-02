@@ -105,7 +105,7 @@ const ServicesSection = () => {
             Ready to Transform Your Business?
           </h3>
           <p className="text-white/70 mb-8 max-w-2xl mx-auto">
-            Let's discuss how our cutting-edge solutions can accelerate your digital transformation.
+            Let&apos;s discuss how our cutting-edge solutions can accelerate your digital transformation.
           </p>
           <Link
             href="/contact"

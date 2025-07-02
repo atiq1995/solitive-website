@@ -14,7 +14,7 @@ const ContactSection = () => {
             Get In <span className="text-gradient">Touch</span>
           </h2>
           <p className="text-lg text-white/70">
-            Ready to transform your business? Let's discuss your project.
+            Ready to transform your business? Let&apos;s discuss your project.
           </p>
         </div>
 

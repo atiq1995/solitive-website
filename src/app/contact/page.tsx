@@ -20,11 +20,11 @@ export default function ContactPage() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Let's Build Something <span className="text-gradient">Amazing</span>
+              Let&apos;s Build Something <span className="text-gradient">Amazing</span>
             </h1>
             <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto">
               Ready to transform your business with cutting-edge technology? 
-              Get in touch and let's discuss your project.
+              Get in touch and let&apos;s discuss your project.
             </p>
           </motion.div>
         </div>

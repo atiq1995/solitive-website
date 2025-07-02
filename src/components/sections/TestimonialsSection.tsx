@@ -52,7 +52,7 @@ const TestimonialsSection = () => {
                 </div>
               </div>
               
-              <p className="text-white/70 mb-6 italic">"{testimonial.content}"</p>
+              <p className="text-white/70 mb-6 italic">&quot;{testimonial.content}&quot;</p>
               
               <div>
                 <h4 className="text-white font-semibold">{testimonial.name}</h4>
