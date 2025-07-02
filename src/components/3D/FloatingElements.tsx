@@ -51,14 +51,14 @@ function FloatingShape({ position, geometry, color }: { position: [number, numbe
 }
 
 function Scene() {
-  const shapes = [
+  const shapes: Array<{ position: [number, number, number], geometry: string, color: string }> = [
     { position: [-4, 2, -2], geometry: 'sphere', color: '#00D4FF' },
     { position: [4, -1, -1], geometry: 'box', color: '#39FF14' },
     { position: [-2, -2, 1], geometry: 'torus', color: '#BF00FF' },
     { position: [3, 3, 0], geometry: 'octahedron', color: '#FF1493' },
     { position: [0, 1, -3], geometry: 'sphere', color: '#00FFFF' },
     { position: [-3, -1, 2], geometry: 'box', color: '#39FF14' },
-  ] as const
+  ]
 
   return (
     <>
