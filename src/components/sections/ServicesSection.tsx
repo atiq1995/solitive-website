@@ -10,37 +10,43 @@ const ServicesSection = () => {
       icon: Code,
       title: "Custom Software Development",
       description: "Tailored software solutions built to meet your unique business requirements and scale with your growth.",
-      color: "neon-blue"
+      color: "neon-blue",
+      slug: "custom-software"
     },
     {
       icon: ShoppingCart,
       title: "POS Systems", 
       description: "Advanced point-of-sale systems that streamline transactions and inventory management.",
-      color: "neon-green"
+      color: "neon-green",
+      slug: "pos-systems"
     },
     {
       icon: Receipt,
       title: "E-Invoicing Solutions",
       description: "FBR-compliant e-invoicing systems that automate tax processes and ensure compliance.",
-      color: "neon-purple"
+      color: "neon-purple",
+      slug: "e-invoicing"
     },
     {
       icon: Database,
       title: "ERP Systems",
       description: "Comprehensive enterprise resource planning solutions to integrate all business processes.",
-      color: "neon-pink"
+      color: "neon-pink",
+      slug: "erp-systems"
     },
     {
       icon: Smartphone,
       title: "Mobile App Development",
       description: "Native and cross-platform mobile applications that engage users and drive growth.",
-      color: "neon-cyan"
+      color: "neon-cyan",
+      slug: "mobile-app"
     },
     {
       icon: Brain,
       title: "IT Consulting",
       description: "Strategic technology consulting to optimize your IT infrastructure and digital transformation.",
-      color: "neon-blue"
+      color: "neon-blue",
+      slug: "it-consulting"
     }
   ]
 
@@ -83,7 +89,7 @@ const ServicesSection = () => {
               </p>
 
               <Link
-                href={`/services/${service.title.toLowerCase().replace(/\s+/g, '-')}`}
+                href={`/services/${service.slug}`}
                 className="inline-flex items-center space-x-2 text-white/80 hover:text-white group-hover:translate-x-1 transition-all duration-300"
               >
                 <span className="text-sm font-medium">Learn More</span>
