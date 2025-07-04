@@ -50,13 +50,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <div className="relative">
-              <Zap className="h-8 w-8 text-neon-blue group-hover:text-neon-green transition-colors duration-300" />
-              <div className="absolute inset-0 h-8 w-8 bg-neon-blue/20 blur-lg group-hover:bg-neon-green/20 transition-colors duration-300" />
-            </div>
-            <span className="text-xl lg:text-2xl font-bold text-gradient">
-              Solitive
-            </span>
+            <img src="/logo.png" alt="Solitive Logo" className="h-48 w-auto object-contain" />
           </Link>
 
           {/* Desktop Navigation */}

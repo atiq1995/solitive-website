@@ -40,16 +40,12 @@ const Footer = () => {
     <footer className="bg-dark-300 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
-        <div className="py-16">
+        <div className="py-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <Link href="/" className="flex items-center space-x-2 mb-6">
-                <div className="relative">
-                  <Zap className="h-8 w-8 text-neon-blue" />
-                  <div className="absolute inset-0 h-8 w-8 bg-neon-blue/20 blur-lg" />
-                </div>
-                <span className="text-2xl font-bold text-gradient">Solitive</span>
+              <Link href="/" className="flex items-center space-x-2">
+                <img src="/logo.png" alt="Solitive Logo" className="h-32 w-auto object-contain" />
               </Link>
               
               <p className="text-white/70 mb-6 max-w-md">
