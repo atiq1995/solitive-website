@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Zap, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
 
 const Footer = () => {
@@ -45,7 +46,13 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <Link href="/" className="flex items-center space-x-2">
-                <img src="/logo.png" alt="Solitive Logo" className="h-32 w-auto object-contain" />
+                <Image 
+                  src="/logo.png" 
+                  alt="Solitive Logo" 
+                  width={128}
+                  height={128}
+                  className="h-32 w-auto object-contain" 
+                />
               </Link>
               
               <p className="text-white/70 mb-6 max-w-md">

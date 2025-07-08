@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronDown, Zap } from 'lucide-react'
 
@@ -32,6 +33,24 @@ const Navigation = () => {
         { name: 'IT Consulting', href: '/services/consulting' },
       ]
     },
+    { 
+      name: 'AI Solutions', 
+      href: '/ai',
+      dropdown: [
+        { name: 'WhatsApp Chatbot', href: '/ai/whatsapp-chatbot' },
+        { name: 'Website Bot', href: '/ai/website-bot' },
+        { name: 'Email Assistant', href: '/ai/email-assistant' },
+        { name: 'Voice Assistant', href: '/ai/voice-assistant' },
+        { name: 'Customer Support', href: '/ai/customer-support' },
+        { name: 'Lead Qualification', href: '/ai/lead-qualification' },
+        { name: 'Social Media Bot', href: '/ai/social-media-bot' },
+        { name: 'Survey & Feedback', href: '/ai/survey-feedback' },
+        { name: 'Document Analyzer', href: '/ai/document-analyzer' },
+        { name: 'Appointment Scheduler', href: '/ai/appointment-scheduler' },
+        { name: 'Multilingual Bots', href: '/ai/multilingual-bots' },
+        { name: 'Team Assistant', href: '/ai/team-assistant' },
+      ]
+    },
     { name: 'About', href: '/about' },
     { name: 'Case Studies', href: '/case-studies' },
     { name: 'Blog', href: '/blog' },
@@ -50,7 +69,13 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <img src="/logo.png" alt="Solitive Logo" className="h-48 w-auto object-contain" />
+            <Image 
+              src="/logo.png" 
+              alt="Solitive Logo" 
+              width={192}
+              height={192}
+              className="h-48 w-auto object-contain" 
+            />
           </Link>
 
           {/* Desktop Navigation */}
