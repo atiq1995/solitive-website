@@ -128,7 +128,7 @@ export default function AIOverviewPage() {
                   AI <span className="text-gradient">Solutions</span>
                 </h1>
                 <p className="text-lg md:text-xl text-white/70 mb-8 max-w-4xl mx-auto">
-                  Transform your business operations with Solitive Technologies' comprehensive suite of AI-powered solutions. 
+                  Transform your business operations with Solitive Technologies&apos; comprehensive suite of AI-powered solutions. 
                   From intelligent chatbots to advanced document analysis, our AI products are designed to automate processes, 
                   enhance customer experiences, and drive business growth through cutting-edge artificial intelligence technology.
                 </p>
@@ -276,7 +276,7 @@ export default function AIOverviewPage() {
                 Ready to Transform Your Business with <span className="text-gradient">AI</span>?
               </h2>
               <p className="text-lg text-white/70 mb-8">
-                Let's discuss how our AI solutions can automate your processes, improve customer experience, and drive growth.
+                Let&apos;s discuss how our AI solutions can automate your processes, improve customer experience, and drive growth.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
