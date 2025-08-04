@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { X, Phone, Globe, Mail, MessageCircle } from 'lucide-react';
+import Image from 'next/image';
 
 export default function DISPopup() {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,15 +34,17 @@ export default function DISPopup() {
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-3">
-              <img 
+              <Image 
                 src="/solitive-logo.png" 
                 alt="Solitive Technologies" 
+                width={256}
+                height={80}
                 className="w-64 h-20 object-contain"
               />
             </div>
             <div className="text-white px-4 py-2 rounded-lg">
               <div className="text-center">
-                <img src="/fbr-logo.png" alt="FBR Digital Invoicing System" className="w-64 h-20 object-contain" />
+                <Image src="/fbr-logo.png" alt="FBR Digital Invoicing System" width={256} height={80} className="w-64 h-20 object-contain" />
               </div>
             </div>
           </div>
@@ -70,8 +73,8 @@ export default function DISPopup() {
                     <div>
                       <h3 className="text-red-700 font-bold mb-2">Attention Business Owners</h3>
                       <p className="text-sm text-gray-700">
-                        All corporate and non-corporate sales tax registered persons <strong>must</strong> integrate their 
-                        invoicing systems with FBR's new platform for real-time tax reporting.
+                                              All corporate and non-corporate sales tax registered persons <strong>must</strong> integrate their 
+                      invoicing systems with FBR&apos;s new platform for real-time tax reporting.
                       </p>
                     </div>
                   </div>
@@ -98,7 +101,7 @@ export default function DISPopup() {
                 <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
                   <h3 className="text-purple-700 font-bold mb-2">Exciting Update</h3>
                   <p className="text-sm text-gray-700 mb-2">
-                    We've successfully set up Digital Invoicing integration with ERP:
+                    We&apos;ve successfully set up Digital Invoicing integration with ERP:
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
                     <li>API integration with FBR</li>

@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { Receipt, CheckCircle, ArrowRight, MessageCircle, Shield, Zap, Users, Award, Phone, Globe, Mail, Star, Clock, Database, Settings, FileText, BarChart } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
@@ -60,7 +61,7 @@ export default function EInvoicingPage() {
                 className="glass-strong p-8 rounded-xl border border-white/10"
               >
                 <div className="text-center mb-6">
-                  <img src="/fbr-logo.png" alt="FBR Digital Invoicing System" className="w-32 h-20 object-contain mx-auto mb-4" />
+                  <Image src="/fbr-logo.png" alt="FBR Digital Invoicing System" width={128} height={80} className="w-32 h-20 object-contain mx-auto mb-4" />
                   <h3 className="text-2xl font-bold text-white">Official FBR Integration</h3>
                 </div>
                 <div className="space-y-4">
@@ -101,7 +102,7 @@ export default function EInvoicingPage() {
                   <h2 className="text-2xl font-bold text-red-400 mb-4">🚨 Attention Business Owners</h2>
                   <p className="text-lg text-white/90 leading-relaxed">
                     All corporate and non-corporate sales tax registered persons <strong className="text-red-300">must</strong> integrate their 
-                    invoicing systems with FBR's new platform for real-time tax reporting. Compliance is mandatory - don't get left behind!
+                    invoicing systems with FBR&apos;s new platform for real-time tax reporting. Compliance is mandatory - don&apos;t get left behind!
                   </p>
                 </div>
               </div>
@@ -317,8 +318,8 @@ export default function EInvoicingPage() {
                   </div>
                 </div>
                 <p className="text-white/80 italic">
-                  "Companies like Jadeed Group trust our invoicing solution for reliable and compliant ERP integration. 
-                  The seamless FBR integration has streamlined our entire invoicing process."
+                  &ldquo;Companies like Jadeed Group trust our invoicing solution for reliable and compliant ERP integration. 
+                  The seamless FBR integration has streamlined our entire invoicing process.&rdquo;
                 </p>
               </motion.div>
 
