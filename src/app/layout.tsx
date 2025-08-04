@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
+import DISPopup from '../components/DISPopup'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -79,6 +80,7 @@ export default function RootLayout({
         </Script>
         <div id="root" className="min-h-screen relative">
           {children}
+          <DISPopup />
         </div>
       </body>
     </html>
